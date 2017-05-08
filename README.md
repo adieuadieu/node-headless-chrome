@@ -16,7 +16,7 @@ yarn add headless-chromium
 Currently works on:
 
 - [x] Linux Ubuntu x64
-- [ ] Windows
+- [ ] Windows (not yet supported by Headless Chromium)
 
 ## CLI Usage
 
