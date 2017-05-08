@@ -1,4 +1,4 @@
-# node-headless-chrome
+# node-headless-chromium
 Install precompiled versions of the Chromium/Chrome [headless shell](https://cs.chromium.org/chromium/src/headless/app/headless_shell.cc) using npm or yarn. Yay.
 
 *Warning*: This is a work-in-progress
@@ -29,7 +29,7 @@ headless-chromium
 ```js
 import { path, spawn } from 'headless-chromium'
 
-// will print something similar to /Users/maf/.../headless-chromium
+// will print something similar to /Users/marco/.../headless-shell
 console.log(path)
 
 // start headless chromium
@@ -44,6 +44,7 @@ await spawn(options)
 
 
 ## Previous Art
+- https://github.com/Medium/phantomjs
 - https://github.com/electron-userland/electron-prebuilt
 - https://github.com/kanekotic/any-prebuilt
 
